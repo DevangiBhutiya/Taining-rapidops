@@ -1,0 +1,15 @@
+import React from 'react'
+
+interface HeadingProps {
+    children: string
+}
+
+const Heading = ({children}: HeadingProps) => {
+  return (
+    <div>
+      {children}
+    </div>
+  )
+}
+
+export default Heading
