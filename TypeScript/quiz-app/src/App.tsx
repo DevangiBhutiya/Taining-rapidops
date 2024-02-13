@@ -16,9 +16,9 @@ import DemoComp from "./components/DemoComp";
 import UserReducer from "./components/state/UserReducer";
 import UseRef from "./components/state/UseRef";
 import Header from "./components/neogexercise/Header";
-  import Quiz from "./components/neogexercise/Quiz";
-  import { quizData } from "./components/neogexercise/quizData";
-  import Score from "./components/neogexercise/Score";
+import Quiz from "./components/neogexercise/Quiz";
+import { quizData } from "./components/neogexercise/quizData";
+import Score from "./components/neogexercise/Score";
 import { MyContext } from "./context/MyContext";
 
 function App() {
